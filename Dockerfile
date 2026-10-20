@@ -1,7 +1,11 @@
 FROM composer:2 AS vendor
 WORKDIR /app
 COPY composer.json composer.lock ./
-RUN composer install --no-dev --no-interaction --no-scripts --prefer-dist --optimize-autoloader --ignore-platform-reqs
+RUN for i in 1 2 3 4; do \
+        composer install --no-dev --no-interaction --no-scripts --prefer-dist --optimize-autoloader --ignore-platform-reqs && break; \
+        [ "$i" = 4 ] && exit 1; \
+        echo "composer install basarisiz, tekrar deneniyor ($i)"; sleep 5; \
+    done
 
 FROM php:8.3-apache
 
