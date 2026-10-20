@@ -1,0 +1,75 @@
+LARAVEL PORTFOLYO — ÜCRETSİZ DAĞITIM LİSANSI
+Sürüm 1.0 — Ekim 2026
+
+Telif Hakkı (c) 2026 webdanismani.com — Tüm hakları saklıdır.
+https://webdanismani.com
+
+Bu yazılım ("Yazılım"), webdanismani.com tarafından ÜCRETSİZ olarak
+dağıtılmaktadır. YAZILIMIN SATIŞI YASAKTIR.
+
+1. KULLANIM İZNİ
+   Yazılımı indiren herkes, aşağıdaki koşullara uymak kaydıyla Yazılımı
+   ücretsiz olarak:
+   a) kendi web sitelerinde ve müşterileri için kurduğu web sitelerinde
+      kullanabilir,
+   b) kendi ihtiyaçları doğrultusunda değiştirebilir ve uyarlayabilir.
+
+2. YASAKLAR
+   Aşağıdakiler kesinlikle yasaktır:
+   a) Yazılımın veya Yazılımdan türetilmiş herhangi bir çalışmanın; ürün,
+      tema, şablon, betik veya paket olarak satılması, kiralanması, ücret
+      karşılığı lisanslanması ya da başka bir ürünün içinde ücretli olarak
+      sunulması,
+   b) Yazılımın ücretli pazar yerlerinde (tema/şablon/betik mağazaları vb.)
+      listelenmesi,
+   c) Bu lisans metninin, telif bildirimlerinin ve webdanismani.com
+      atıflarının kaynak koddan kaldırılması veya değiştirilmesi,
+   d) Yazılımın başka bir kişi veya kuruluşa aitmiş gibi sunulması.
+
+3. YENİDEN DAĞITIM
+   Yazılım yalnızca ÜCRETSİZ olarak, bu lisans metniyle birlikte ve
+   orijinal kaynağa (https://github.com/webdanismani/laravel-portfolyo)
+   ve webdanismani.com'a açık atıf yapılarak yeniden dağıtılabilir.
+
+4. İHLAL VE DMCA
+   Bu lisansın ihlali, özellikle Yazılımın satışa sunulması tespit
+   edildiğinde; ilgili platformlara, barındırma sağlayıcılarına ve arama
+   motorlarına Dijital Binyıl Telif Hakkı Yasası (DMCA) kapsamında kaldırma
+   bildirimi gönderilecek ve her türlü yasal hak saklı tutulacaktır.
+   İhlal bildirimleri için: https://webdanismani.com
+
+5. SORUMLULUK REDDİ
+   YAZILIM "OLDUĞU GİBİ" SUNULUR. AÇIK VEYA ZIMNİ HİÇBİR GARANTİ VERİLMEZ.
+   YAZILIMIN KULLANIMINDAN DOĞAN HİÇBİR ZARARDAN webdanismani.com SORUMLU
+   TUTULAMAZ.
+
+6. ÜÇÜNCÜ TARAF BİLEŞENLER
+   Yazılım; Laravel çatısı (MIT), Bootstrap (MIT), Bootstrap Icons (MIT),
+   Font Awesome Free (simgeler CC BY 4.0, yazı tipleri SIL OFL 1.1, kod MIT)
+   ve Google Fonts üzerinden sunulan Syne ile Manrope yazı tiplerini
+   (SIL OFL 1.1) kullanır. Bu bileşenler kendi lisanslarına tabidir.
+
+-------------------------------------------------------------------------------
+
+LARAVEL PORTFOLYO — FREE DISTRIBUTION LICENSE (English summary)
+
+Copyright (c) 2026 webdanismani.com — All rights reserved.
+
+This software is distributed FREE OF CHARGE by webdanismani.com.
+SELLING THIS SOFTWARE IS PROHIBITED.
+
+You may use the software free of charge on your own websites and on
+websites you build for your clients, and you may modify it for your own
+needs. You may NOT sell, rent, sublicense for a fee, or list on paid
+marketplaces the software or any derivative work; you may NOT remove this
+license, copyright notices or webdanismani.com attributions. Redistribution
+is allowed only free of charge, together with this license and with clear
+attribution to the original repository and webdanismani.com.
+
+Violations, in particular offering the software for sale, will be answered
+with DMCA takedown notices to the relevant platforms, hosting providers and
+search engines; all legal rights are reserved.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+In case of any conflict, the Turkish text above prevails.

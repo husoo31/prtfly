@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-label="Kod editörü">
+  <defs>
+    <linearGradient id="zemin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1a1a"/>
+      <stop offset="1" stop-color="#0f0e0e"/>
+    </linearGradient>
+    <radialGradient id="isik" cx=".5" cy=".38" r=".6">
+      <stop offset="0" stop-color="#ff6b00" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#ff6b00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="720" height="900" fill="url(#zemin)"/>
+  <rect width="720" height="900" fill="url(#isik)"/>
+
+  <!-- arka plan simgeleri -->
+  <g fill="none" stroke="#ff6b00" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".18">
+    <path d="M110 150l-50 50 50 50M170 150l50 50-50 50" transform="translate(40 10)"/>
+    <path d="M540 120l-40 40 40 40M590 120l40 40-40 40" transform="translate(-10 40)"/>
+  </g>
+  <g fill="#fff" opacity=".07">
+    <circle cx="90" cy="700" r="6"/><circle cx="130" cy="700" r="6"/><circle cx="170" cy="700" r="6"/>
+    <circle cx="600" cy="780" r="6"/><circle cx="640" cy="780" r="6"/>
+  </g>
+
+  <!-- editör penceresi -->
+  <g transform="translate(60 230)">
+    <rect width="600" height="400" rx="22" fill="#171616" stroke="#2c2a2a" stroke-width="2"/>
+    <path d="M0 22a22 22 0 0 1 22-22h556a22 22 0 0 1 22 22v34H0z" fill="#232121"/>
+    <circle cx="36" cy="28" r="9" fill="#ff5f57"/>
+    <circle cx="66" cy="28" r="9" fill="#febc2e"/>
+    <circle cx="96" cy="28" r="9" fill="#28c840"/>
+    <text x="300" y="34" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8a8582">portfolyo.php</text>
+
+    <g font-family="Consolas, 'Courier New', monospace" font-size="22">
+      <g fill="#4d4846" text-anchor="end">
+        <text x="56" y="106">1</text><text x="56" y="140">2</text><text x="56" y="174">3</text>
+        <text x="56" y="208">4</text><text x="56" y="242">5</text><text x="56" y="276">6</text>
+        <text x="56" y="310">7</text><text x="56" y="344">8</text>
+      </g>
+      <text x="80" y="106"><tspan fill="#ff6b00">class</tspan><tspan fill="#f5f0ee"> Portfolyo </tspan><tspan fill="#8a8582">{</tspan></text>
+      <text x="110" y="140"><tspan fill="#ff6b00">public function</tspan><tspan fill="#ffd9bf"> kur</tspan><tspan fill="#8a8582">() {</tspan></text>
+      <text x="140" y="174"><tspan fill="#7fd1ae">$site</tspan><tspan fill="#8a8582"> = </tspan><tspan fill="#ffd9bf">Laravel</tspan><tspan fill="#8a8582">::</tspan><tspan fill="#f5f0ee">yeni</tspan><tspan fill="#8a8582">();</tspan></text>
+      <text x="140" y="208"><tspan fill="#7fd1ae">$site</tspan><tspan fill="#8a8582">-&gt;</tspan><tspan fill="#f5f0ee">tema</tspan><tspan fill="#8a8582">(</tspan><tspan fill="#e9c46a">'modern'</tspan><tspan fill="#8a8582">);</tspan></text>
+      <text x="140" y="242"><tspan fill="#7fd1ae">$site</tspan><tspan fill="#8a8582">-&gt;</tspan><tspan fill="#f5f0ee">yayinla</tspan><tspan fill="#8a8582">();</tspan></text>
+      <text x="110" y="276" fill="#8a8582">}</text>
+      <text x="80" y="310" fill="#8a8582">}</text>
+      <rect x="80" y="326" width="12" height="26" fill="#ff6b00"/>
+    </g>
+  </g>
+
+  <!-- terminal kartı -->
+  <g transform="translate(300 590)">
+    <rect width="340" height="150" rx="18" fill="#ff6b00"/>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="21" fill="#0f0e0e">
+      <text x="28" y="56" font-weight="700">$ php artisan serve</text>
+      <text x="28" y="92" opacity=".8">Server running on</text>
+      <text x="28" y="124" opacity=".8">http://localhost:8000</text>
+    </g>
+  </g>
+
+  <!-- etiket -->
+  <g transform="translate(40 640)">
+    <rect width="190" height="64" rx="32" fill="#232121" stroke="#2c2a2a" stroke-width="2"/>
+    <text x="95" y="42" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#ffd9bf">&lt;/&gt; kod</text>
+  </g>
+</svg>

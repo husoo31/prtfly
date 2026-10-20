@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1160" role="img" aria-label="Yazılım geliştirme">
+  <defs>
+    <linearGradient id="zemin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d1b1b"/>
+      <stop offset="1" stop-color="#0f0e0e"/>
+    </linearGradient>
+    <radialGradient id="isik" cx=".62" cy=".42" r=".6">
+      <stop offset="0" stop-color="#ff6b00" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#ff6b00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="1160" fill="url(#zemin)"/>
+  <rect width="1200" height="1160" fill="url(#isik)"/>
+
+  <!-- dekor -->
+  <g fill="none" stroke="#ff6b00" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity=".16">
+    <path d="M110 130l-60 60 60 60M190 130l60 60-60 60"/>
+    <path d="M1010 920l-50 50 50 50M1080 920l50 50-50 50"/>
+  </g>
+  <g fill="#fff" opacity=".07">
+    <circle cx="120" cy="1000" r="8"/><circle cx="170" cy="1000" r="8"/><circle cx="220" cy="1000" r="8"/>
+    <circle cx="1040" cy="130" r="8"/><circle cx="1090" cy="130" r="8"/>
+  </g>
+
+  <!-- tarayıcı penceresi: web sitesi taslağı -->
+  <g transform="translate(110 150)">
+    <rect width="720" height="520" rx="26" fill="#f7f3f0"/>
+    <path d="M0 26a26 26 0 0 1 26-26h668a26 26 0 0 1 26 26v50H0z" fill="#e8e1dc"/>
+    <circle cx="44" cy="38" r="10" fill="#ff5f57"/>
+    <circle cx="78" cy="38" r="10" fill="#febc2e"/>
+    <circle cx="112" cy="38" r="10" fill="#28c840"/>
+    <rect x="160" y="22" width="400" height="32" rx="16" fill="#fff"/>
+    <text x="360" y="45" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#8a8582">localhost:8000</text>
+
+    <rect x="44" y="110" width="140" height="22" rx="11" fill="#0f0e0e"/>
+    <rect x="460" y="114" width="50" height="14" rx="7" fill="#c9c1bb"/>
+    <rect x="530" y="114" width="50" height="14" rx="7" fill="#c9c1bb"/>
+    <rect x="600" y="114" width="76" height="14" rx="7" fill="#ff6b00"/>
+
+    <rect x="44" y="190" width="330" height="40" rx="10" fill="#0f0e0e"/>
+    <rect x="44" y="246" width="250" height="40" rx="10" fill="#0f0e0e"/>
+    <rect x="44" y="318" width="320" height="14" rx="7" fill="#c9c1bb"/>
+    <rect x="44" y="346" width="280" height="14" rx="7" fill="#c9c1bb"/>
+    <rect x="44" y="392" width="150" height="48" rx="24" fill="#ff6b00"/>
+    <rect x="210" y="392" width="150" height="48" rx="24" fill="none" stroke="#0f0e0e" stroke-width="3"/>
+
+    <rect x="430" y="180" width="246" height="260" rx="18" fill="#0f0e0e"/>
+    <g fill="none" stroke="#ff6b00" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M512 270l-34 34 34 34M594 270l34 34-34 34"/>
+      <path d="M570 256l-24 96"/>
+    </g>
+  </g>
+
+  <!-- terminal -->
+  <g transform="translate(560 540)">
+    <rect width="540" height="330" rx="24" fill="#171616" stroke="#2c2a2a" stroke-width="2"/>
+    <path d="M0 24a24 24 0 0 1 24-24h492a24 24 0 0 1 24 24v36H0z" fill="#232121"/>
+    <circle cx="40" cy="30" r="9" fill="#ff5f57"/>
+    <circle cx="70" cy="30" r="9" fill="#febc2e"/>
+    <circle cx="100" cy="30" r="9" fill="#28c840"/>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="24">
+      <text x="36" y="112"><tspan fill="#ff6b00">$</tspan><tspan fill="#f5f0ee"> composer install</tspan></text>
+      <text x="36" y="156"><tspan fill="#ff6b00">$</tspan><tspan fill="#f5f0ee"> php artisan migrate</tspan></text>
+      <text x="36" y="200" fill="#7fd1ae">✓ tablolar oluşturuldu</text>
+      <text x="36" y="244"><tspan fill="#ff6b00">$</tspan><tspan fill="#f5f0ee"> php artisan serve</tspan></text>
+      <text x="36" y="288" fill="#e9c46a">Server running on :8000</text>
+    </g>
+  </g>
+
+  <!-- veritabanı simgesi -->
+  <g transform="translate(110 740)" fill="#ff6b00">
+    <ellipse cx="90" cy="40" rx="90" ry="34"/>
+    <path d="M0 40v70c0 19 40 34 90 34s90-15 90-34V40c0 19-40 34-90 34S0 59 0 40z" opacity=".85"/>
+    <path d="M0 110v70c0 19 40 34 90 34s90-15 90-34v-70c0 19-40 34-90 34S0 129 0 110z" opacity=".6"/>
+  </g>
+</svg>
